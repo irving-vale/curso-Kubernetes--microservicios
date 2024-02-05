@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b806e180-f0e4-42ae-8c7a-7e610111e83e" name="Changes" comment="se actualizo dependencias maven, probelmas con seguridad, starter test aun con problemas" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="cambios-del-curso" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;irving-vale&quot;
+  }
+}</component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1707156182" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="cambios-del-curso" />
+                    <option name="lastUsedInstant" value="1706911918" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="727c32e8-b5a9-401c-a988-ca75acc47ee6" />
+        <option name="url" value="https://github.com/irving-vale/curso-Kubernetes--microservicios.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/msvc-usuarios/pom.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2am5BR9q9hbuY7BzHLySor2xilA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.curso-kubernetes [clean].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/jloza/OneDrive/Escritorio/repo ectotec/PortalAdminServiciosFinancieros/PortalAdminServiciosFinancieros",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="MsvcUsuariosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="msvc-usuarios" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.joirv.springcloud.msvc.usuarios.MsvcUsuariosApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b806e180-f0e4-42ae-8c7a-7e610111e83e" name="Changes" comment="" />
+      <created>1704910788433</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704910788433</updated>
+      <workItem from="1704910789171" duration="5865000" />
+      <workItem from="1704988821985" duration="793000" />
+      <workItem from="1704994481464" duration="3909000" />
+      <workItem from="1705337532554" duration="259000" />
+      <workItem from="1705444444408" duration="6000" />
+      <workItem from="1705438996372" duration="654000" />
+      <workItem from="1705465912082" duration="147000" />
+      <workItem from="1705473570916" duration="360000" />
+      <workItem from="1705474117552" duration="334000" />
+      <workItem from="1705506172646" duration="687000" />
+      <workItem from="1705507585818" duration="6000" />
+      <workItem from="1705508133045" duration="168000" />
+      <workItem from="1705510999724" duration="12481000" />
+      <workItem from="1705558951009" duration="42000" />
+      <workItem from="1705603917208" duration="103000" />
+      <workItem from="1705620342361" duration="712000" />
+      <workItem from="1705678231856" duration="193000" />
+      <workItem from="1705944306783" duration="307000" />
+      <workItem from="1705944637791" duration="11694000" />
+      <workItem from="1706126519297" duration="1023000" />
+      <workItem from="1706201905291" duration="2759000" />
+      <workItem from="1706286237005" duration="888000" />
+      <workItem from="1706898827527" duration="3106000" />
+      <workItem from="1706905799410" duration="1635000" />
+      <workItem from="1706910168784" duration="3443000" />
+      <workItem from="1707156068083" duration="177000" />
+    </task>
+    <task id="LOCAL-00001" summary="se actualizo dependencias maven, probelmas con seguridad, starter test aun con problemas">
+      <option name="closed" value="true" />
+      <created>1706913334709</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706913334709</updated>
+    </task>
+    <task id="LOCAL-00002" summary="se actualizo dependencias maven, probelmas con seguridad, starter test aun con problemas">
+      <option name="closed" value="true" />
+      <created>1706913401685</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706913401685</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="se actualizo dependencias maven, probelmas con seguridad, starter test aun con problemas" />
+    <option name="LAST_COMMIT_MESSAGE" value="se actualizo dependencias maven, probelmas con seguridad, starter test aun con problemas" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
