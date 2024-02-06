@@ -1,6 +1,10 @@
 package com.joirv.springcloud.msvc.usuarios.models.entity;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 
 /*
 - Se usa la anotacion @Entity para decir que es una tabla
@@ -10,13 +14,23 @@ clase
 - @GenerateValue es necesario para ponerle una estrategia en este caso IDENTITY para que se autoincremente
 - @Column sirve para poder agregar instrucciones como en este caso que el email sea unico
 - para saber mas opciones en cada anotacion usa control + espacio
+- @Data es una anotacion de lombok que nos genera los metodos get, set, equals, hashcode, toString
+- @NoArgsConstructor es una anotacion de lombok que nos genera un constructor vacio
+- @AllArgsConstructor es una anotacion de lombok que nos genera un constructor con todos los atributos
+- @EqualsAndHashCode es una anotacion de lombok que nos genera los metodos equals y hashcode
+
 * */
 @Entity
-@Table (name = "usuarios")
+@Table (name = "usuarios")// si queremos cambiar el nombre de la tabla por defecto se queda con el nombre de la clase
+// pero si queremos cambiarlo se usa la anotacion @Table
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
+@EqualsAndHashCode
 public class Usuario {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // para que se autoincremente
     private Long id;
 
     private String nombre;
@@ -26,36 +40,6 @@ public class Usuario {
 
     private String password;
 
-    public Long getId() {
-        return id;
-    }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
 }
 

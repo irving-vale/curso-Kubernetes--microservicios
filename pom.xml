@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <!--este parent no existia se agrego para copiar el parent del proyecto creado con springboot y
-    se elimina de ese proyecto para pasarse a este y se vuelve dependiente del proiyecto de springboot (msvc-usuario)-->
+    se elimina de ese proyecto para pasarse a este y se vuelve dependiente del proyecto de springboot (msvc-usuario)-->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>

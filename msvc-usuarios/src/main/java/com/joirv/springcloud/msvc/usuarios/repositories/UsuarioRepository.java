@@ -9,6 +9,11 @@ esto sirve para que tengamos metodos ya creados del crud, podemos revisar la pag
 y revisemos
 
 usa datos genericos entonces agregamos <clase,tipo>
+- jpa repository nos da metodos como save, findById, findAll, delete, deleteById, entre otros
+- CrudRepository es una interfaz que nos da metodos para poder hacer el crud
+-la diferencia entre CrudRepository y JpaRepository es que JpaRepository nos da mas metodos para poder hacer consultas mas complejas
+- como por ejemplo paginacion, ordenamiento, entre otros
+-Pero CrudRepository nos da metodos basicos para poder hacer el crud
 */
 public interface UsuarioRepository extends CrudRepository<Usuario,Long> {
 }

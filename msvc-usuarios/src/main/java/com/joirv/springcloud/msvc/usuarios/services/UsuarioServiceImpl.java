@@ -22,7 +22,8 @@ public class UsuarioServiceImpl implements UsuarioService{
     public List<Usuario> listar() {
         return (List<Usuario>) repository.findAll();
     }
-    @Transactional(readOnly = true)
+    @Transactional(readOnly = true)// anotacion que sirve  para decir como queremos que haga la transaccion, en este caso
+                                    // solo lectura
     @Override
     public Optional<Usuario> porId(Long id) {
         return repository.findById(id);
