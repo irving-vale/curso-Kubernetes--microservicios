@@ -16,33 +16,34 @@ public class UsuarioController {
     @Autowired
     private UsuarioService service;
 
-   @GetMapping("/")
-   public List<Usuario> listar(){
+    @GetMapping("/")
+    public List<Usuario> listar() {
         return service.listar();
     }
     // se crea un getmaping con una variable {id} para poderla pasar a el metodo
     // se pasa coon @Pathvariable
     // se crea una variable optional que va a tener uns serviciode busqueda por id
     // se usa ResponseEntity para que la respuesta sea un codigo http si es que no encuentra el ide
-
     @GetMapping("/{id}")
-    public ResponseEntity<?> detalle(@PathVariable Long id){
-       Optional<Usuario> usuarioOptional=service.porId(id);
+    public ResponseEntity<?> detalle(@PathVariable Long id) {
+        Optional<Usuario> usuarioOptional = service.porId(id);
         if (usuarioOptional.isPresent()) {
             return ResponseEntity.ok(usuarioOptional.get());
         }
         return ResponseEntity.notFound().build();
+
     }
 
     @PostMapping
-    @ResponseStatus(HttpStatus.CREATED)
-    public Usuario crear(@RequestBody Usuario usuario){
-       return service.guardar(usuario);
+    public ResponseEntity<?> crear(@RequestBody Usuario usuario) {
+        return ResponseEntity.status(HttpStatus.CREATED).body(service.guardar(usuario));
+
+
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<?> editar(@RequestBody Usuario usuario, @PathVariable Long id){
-       Optional<Usuario>o=service.porId(id);
+    public ResponseEntity<?> editar(@RequestBody Usuario usuario, @PathVariable Long id) {
+        Optional<Usuario> o = service.porId(id);
         if (o.isPresent()) {
             Usuario usuairoDb = o.get();
             usuairoDb.setNombre(usuario.getNombre());
@@ -55,12 +56,12 @@ public class UsuarioController {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<?> eliminar(@PathVariable Long id){
-       Optional<Usuario> o = service.porId(id);
-       if (o.isPresent()){
-           service.eliminar(id);
-           return ResponseEntity.noContent().build();
-       }
-       return ResponseEntity.notFound().build();
+    public ResponseEntity<?> eliminar(@PathVariable Long id) {
+        Optional<Usuario> o = service.porId(id);
+        if (o.isPresent()) {
+            service.eliminar(id);
+            return ResponseEntity.noContent().build();
+        }
+        return ResponseEntity.notFound().build();
     }
 }

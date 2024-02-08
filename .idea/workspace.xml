@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b806e180-f0e4-42ae-8c7a-7e610111e83e" name="Changes" comment="se resolvio el problema de fuision y el archivo misc.xml que se corrompio">
+    <list default="true" id="b806e180-f0e4-42ae-8c7a-7e610111e83e" name="Changes" comment="se agregaron anotaciones eexplicando el codigo">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-usuarios/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/java/com/joirv/springcloud/msvc/usuarios/models/entity/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/java/com/joirv/springcloud/msvc/usuarios/models/entity/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/java/com/joirv/springcloud/msvc/usuarios/repositories/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/java/com/joirv/springcloud/msvc/usuarios/repositories/UsuarioRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/java/com/joirv/springcloud/msvc/usuarios/services/UsuarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/java/com/joirv/springcloud/msvc/usuarios/services/UsuarioService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/java/com/joirv/springcloud/msvc/usuarios/controllers/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/java/com/joirv/springcloud/msvc/usuarios/controllers/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/java/com/joirv/springcloud/msvc/usuarios/services/UsuarioServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/java/com/joirv/springcloud/msvc/usuarios/services/UsuarioServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,14 +82,14 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/msvc-usuarios/pom.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -101,29 +99,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.curso-kubernetes [clean].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;cambios-del-curso&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jloza/OneDrive/Escritorio/cursos/Curso Docker y kubernetes con springboot udemy/curso-Kubernetes--microservicios&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.curso-kubernetes [clean].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.MsvcUsuariosApplication.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "cambios-del-curso",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/jloza/OneDrive/Escritorio/cursos/Curso Docker y kubernetes con springboot udemy/curso-Kubernetes--microservicios",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="MsvcUsuariosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
@@ -177,7 +185,9 @@
       <workItem from="1707156068083" duration="177000" />
       <workItem from="1707160366509" duration="2171000" />
       <workItem from="1707182586673" duration="4733000" />
-      <workItem from="1707194167716" duration="1664000" />
+      <workItem from="1707194167716" duration="2017000" />
+      <workItem from="1707235206716" duration="1328000" />
+      <workItem from="1707365136394" duration="3932000" />
     </task>
     <task id="LOCAL-00001" summary="se actualizo dependencias maven, probelmas con seguridad, starter test aun con problemas">
       <option name="closed" value="true" />
@@ -211,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707160635569</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="se agregaron anotaciones eexplicando el codigo">
+      <option name="closed" value="true" />
+      <created>1707196169748</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707196169748</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +249,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="se actualizo dependencias maven, probelmas con seguridad, starter test aun con problemas" />
     <MESSAGE value="se resolvio el problema de fuision y el archivo misc.xml que se corrompio" />
-    <option name="LAST_COMMIT_MESSAGE" value="se resolvio el problema de fuision y el archivo misc.xml que se corrompio" />
+    <MESSAGE value="se agregaron anotaciones eexplicando el codigo" />
+    <option name="LAST_COMMIT_MESSAGE" value="se agregaron anotaciones eexplicando el codigo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

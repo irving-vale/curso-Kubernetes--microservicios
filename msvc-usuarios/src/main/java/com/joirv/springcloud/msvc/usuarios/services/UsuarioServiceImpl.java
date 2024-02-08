@@ -36,7 +36,7 @@ public class UsuarioServiceImpl implements UsuarioService{
     }
 
     @Override
-    @Transactional
+    @Transactional// la transaccion es importante para que si hay un error en la base de datos no se haga el cambio
     public void eliminar(Long id) {
         repository.deleteById(id);
     }
