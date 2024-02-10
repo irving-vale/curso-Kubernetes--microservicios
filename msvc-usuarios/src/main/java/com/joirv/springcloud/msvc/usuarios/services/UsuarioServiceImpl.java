@@ -17,13 +17,11 @@ public class UsuarioServiceImpl implements UsuarioService{
     @Autowired //auto inyeccion
     private UsuarioRepository repository;
     @Override
-    @Transactional(readOnly = true) // es una anotacion para decir como queremos que haga la transaccion, en este caso
-                                    // solo lectura
+    @Transactional(readOnly = true) // es una anotacion para decir como queremos que haga la transaccion, en este caso es solo lectura
     public List<Usuario> listar() {
         return (List<Usuario>) repository.findAll();
     }
-    @Transactional(readOnly = true)// anotacion que sirve  para decir como queremos que haga la transaccion, en este caso
-                                    // solo lectura
+    @Transactional(readOnly = true)// anotacion que sirve  para decir como queremos que haga la transaccion, en este caso es solo lectura
     @Override
     public Optional<Usuario> porId(Long id) {
         return repository.findById(id);

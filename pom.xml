@@ -19,6 +19,7 @@
     <packaging>pom</packaging> <!-- se agrega el pom debajo de version -->
     <modules> <!-- se agrega el modulo con el nombre del proyecto de springboot (msvc-usuarios)-->
         <module>msvc-usuarios</module>
+        <module>msvc-cursos</module> <!-- se agrega el modulo con el nombre del proyecto de springboot (msvc-cursos)-->
     </modules>
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
