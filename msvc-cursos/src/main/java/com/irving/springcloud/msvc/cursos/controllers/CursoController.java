@@ -29,7 +29,7 @@ public class CursoController {
     }
 
     @PostMapping
-    public ResponseEntity<?> crear(Curso curso){
+    public ResponseEntity<?> crear(@RequestBody Curso curso){
         return ResponseEntity.ok(service.save(curso));
     }
 

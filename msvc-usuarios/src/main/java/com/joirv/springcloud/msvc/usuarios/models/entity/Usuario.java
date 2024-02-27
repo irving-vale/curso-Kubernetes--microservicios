@@ -1,6 +1,8 @@
 package com.joirv.springcloud.msvc.usuarios.models.entity;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotEmpty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -33,11 +35,14 @@ public class Usuario {
     @GeneratedValue(strategy = GenerationType.IDENTITY) // para que se autoincremente
     private Long id;
 
+    @NotEmpty  // son solo para tipos de datos String
     private String nombre;
 
     @Column(unique = true)
+    @Email
     private String email;
 
+    @NotEmpty
     private String password;
 
 
